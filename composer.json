@@ -1,0 +1,27 @@
+{
+    "name": "lipeng93/authority",
+    "description": "A privilege control program for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lipeng",
+            "email": "lipeng4203@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lipeng93\\Authority\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lipeng93\\Authority\\AuthorityServiceProvider"
+            ],
+            "aliases": {
+                "Mongo": "Lipeng93\\Authority\\AuthorityFacade"
+            }
+        }
+    }
+}
