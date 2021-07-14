@@ -16,7 +16,7 @@ composer require lipeng93/authority
 Then run these commands to publish assets and config：
 
 ```php
-php artisan vendor:publish --provider="Lipeng93\\Authority\\AuthorityServiceProvider"
+php artisan vendor:publish --tag=lipeng93-authority
 ```
 
 After run command you can find config file in `config/authority.php`, in this file you can change the install directory,db connection or table names.
